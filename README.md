@@ -7,7 +7,7 @@
     5. pipenv shell
     6. pipenv run python manage.py runserver localhost:8000
   
-  Django:
+  Django:        
         http://127.0.0.1:8000/admin
     
         user admin
@@ -21,5 +21,5 @@
         pytest --ds=benz.settings -v --disable-warnings
     
   Django Doc:        
-        http://127.0.0.1:8000/swagger/
+        http://127.0.0.1:8000/swagger/        
         http://127.0.0.1:8000/redoc/
