@@ -4,7 +4,8 @@
     2. cd Test_TZ_Python-Developer
     3. pip install pipenv
     4. pipenv install -r requirements.txt
-    5. pipenv run python manage.py runserver localhost:8000
+    5. pipenv shell
+    6. pipenv run python manage.py runserver localhost:8000
   
   Django:
         http://127.0.0.1:8000/admin
