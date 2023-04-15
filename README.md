@@ -13,15 +13,13 @@
         user admin
         password 123
   
-  Django_API:
-        
+  Django_API:        
         http://localhost:8000/education_modules/
     
   Djanjo Test:
     
         pytest --ds=benz.settings -v --disable-warnings
     
-  Django Doc:
-        
+  Django Doc:        
         http://127.0.0.1:8000/swagger/
         http://127.0.0.1:8000/redoc/
